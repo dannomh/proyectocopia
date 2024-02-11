@@ -10,6 +10,7 @@
           return $conn;
       } catch (PDOException $exception) {
           exit($exception->getMessage());
+
       }
   }
 
